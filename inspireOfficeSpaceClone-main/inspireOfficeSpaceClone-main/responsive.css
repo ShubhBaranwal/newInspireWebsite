@@ -1,0 +1,115 @@
+@media screen and (max-width:990px) {
+    .navList{
+        display: none;
+        
+        
+    }
+    .heroSectionContent{
+        flex-direction: column;
+    }
+    .heroLeft{
+        width: 100%;
+    }
+    .heroLeft>img{
+        width:90%;
+    }
+    .heroRight{
+        width: 100%;
+        padding: 50px;
+    }
+
+.workContainer{
+flex-direction: column;
+justify-content: start;
+}
+.work{
+    width: 90%;
+}
+.ourAmenContainer{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.itemOne{
+    width: 40%;
+}
+
+.faqContainer{
+   padding: 20px 30px;
+}
+
+
+.footer{
+    position: static;
+    
+    flex-direction:column ;
+}
+.footerColumn{
+    width: 100%;
+    
+}
+.footerColumn>ul{
+    position: relative;
+    left: 0;
+    text-align: left;
+}
+.push{
+    height: 50px;
+}
+
+
+    #toggleIcon{
+
+        display: block;
+    }
+.mobileNavList{
+    background-color: black;
+    color: white;
+    
+    /* display: block; */
+}
+.mobileNavList>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+    display: block;
+}
+.mobileSubMenu{
+    
+}
+.subMenuOne {
+    .subMenuOne {
+        position: absolute;
+        top: -238px;
+        border: 1px solid black;
+        background-color: lightgoldenrodyellow;
+        padding: 20px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: -1px 8px 16px -8px rgb(80, 74, 74);
+        display: none;
+    }
+}
+.subMenuOneMobile {
+    position: absolute !important;
+         top: 234px!important;
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: -1px 8px 16px -8px rgb(80, 74, 74);
+    display: none;
+}
+}
+
+
